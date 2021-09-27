@@ -10,7 +10,12 @@ Author: Abcgomel
 Site: https://themeforest.net/user/abcgomel/portfolio
 ------------------------------------------------------------------------*/
 .affix-top .menu-dropdown {
-    margin-top: 18px;
+    margin-top: 10px;
+}
+
+.custom-row{
+    display:flex;
+    justify-content:space-evenly
 }
 
 .menu-dropdown {
@@ -28,6 +33,11 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 
 .menu-dropdown button svg {
     fill: #7d7f83;
+    font-size: 10px !important;
+    width:14px !important;
+    transform:rotate(90deg);
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 
