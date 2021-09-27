@@ -1,0 +1,1 @@
+# frazex-static
