@@ -13,9 +13,55 @@ Site: https://themeforest.net/user/abcgomel/portfolio
     margin-top: 10px;
 }
 
-.custom-row{
-    display:flex;
-    justify-content:space-evenly
+.custom-row {
+    display: flex;
+    justify-content: space-evenly
+}
+
+/* box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.123);
+transform: scale(.95);
+background-color:#fff; */
+#person-1-card,
+#person-2-card,
+#news-1-card,
+#news-2-card,
+#news-3-card {
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.dropdown-menu {
+    margin-top: 18px !important;
+    float: none !important;
+    width: 54px !important;
+    min-width: 55px !important;
+}
+
+#person-1,
+#person-2,
+#news-1,
+#news-2,
+#news-3 {
+    display: none;
+}
+
+.person-info {
+    height: 200px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.person-info-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .menu-dropdown {
@@ -34,8 +80,8 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 .menu-dropdown button svg {
     fill: #7d7f83;
     font-size: 10px !important;
-    width:14px !important;
-    transform:rotate(90deg);
+    width: 14px !important;
+    transform: rotate(90deg);
     margin-top: 5px;
     margin-left: 5px;
 }
