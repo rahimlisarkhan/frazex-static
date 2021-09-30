@@ -12,7 +12,10 @@ Site: https://themeforest.net/user/abcgomel/portfolio
 .affix-top .menu-dropdown {
     margin-top: 10px;
 }
+.menu-dropdown{
+    margin-top: -7px;
 
+}
 .custom-row {
     display: flex;
     justify-content: space-evenly
@@ -30,7 +33,9 @@ background-color:#fff; */
     cursor: pointer;
     transition: all .2s;
 }
-
+.btn{
+    outline:none !important;
+}
 .dropdown-menu {
     margin-top: 18px !important;
     float: none !important;
@@ -4492,7 +4497,8 @@ header.affix .logo-2 {
 }
 
 .logo-img {
-    height: 42px
+    width: 120px;
+    object-fit:cover;
 }
 
 .logo-img.logo-color-change {
