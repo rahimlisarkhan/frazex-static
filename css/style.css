@@ -1203,7 +1203,7 @@ video {
 }
 
 .fes2-img {
-    background: url(../images/fes2.jpg) 50% 50% no-repeat;
+    background: url(../images/services/Customer\ Loyalty\ Operations.jpg) 50% 50% no-repeat;
     width: 100%;
     display: block;
     position: relative;
@@ -1222,8 +1222,51 @@ video {
     font-weight: 300
 }
 
+.fes1-img{
+    background: url(../images/services//Customer\ Loyalty\ Consulting.jpg) 50% 50% no-repeat !important;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
 .fes3-img {
-    background: url(../images/fes3.jpg) 50% 50% no-repeat;
+    background: url(../images/services/Employee\ Loyalty\ Consulting.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+
+.fes4-img {
+    background: url(../images/services/Employee\ Loyalty\ Operations.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.fes5-img {
+    background: url(../images/services/Digitalization.jpg) 50% 50% no-repeat;
     background-size: cover;
     width: 100%;
     display: block;
@@ -1271,7 +1314,7 @@ video {
     color: #4b4e53;
     font-weight: 300;
     font-size: 18px;
-    margin: 0
+    padding-top:12px !important;
 }
 
 .section-title {
@@ -2560,8 +2603,23 @@ table.shopping-cart-table tr th {
 }
 
 .count-title {
-    font-size: 14px
+    font-size: 14px;
+    text-transform: uppercase;
 }
+.count-view{
+    display: flex;
+    width:150px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left:20px;
+}
+
+.count-view span{
+font-size:25px;
+margin-top:15px;
+margin-left: 5px;
+}
+
 
 .count-descr {
     margin-top: 10px;
