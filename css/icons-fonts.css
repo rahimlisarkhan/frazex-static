@@ -578,12 +578,15 @@
     content: "\e1c2"
 }
 
-.icon-basic-settings:before {
-    content: "\e0a3"
+.icon-basic-settings img{
+    width: 46px;
 }
+/* .icon-basic-settings:before {
+    content: "\e1dd"
+} */
 
 .icon-basic-share:before {
-    content: "\e1c4"
+    content: "\e128"
 }
 
 .icon-basic-sheet:before {

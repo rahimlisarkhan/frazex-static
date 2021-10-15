@@ -1,19 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
+
 .affix-top .menu-dropdown {
     margin-top: 10px;
 }
-.menu-dropdown{
+
+.menu-dropdown {
     margin-top: -7px;
 
 }
+
 .custom-row {
     display: flex;
     justify-content: space-evenly
@@ -31,9 +34,11 @@ background-color:#fff; */
     cursor: pointer;
     transition: all .2s;
 }
-.btn{
-    outline:none !important;
+
+.btn {
+    outline: none !important;
 }
+
 .dropdown-menu {
     margin-top: 18px !important;
     float: none !important;
@@ -47,6 +52,13 @@ background-color:#fff; */
 #news-2,
 #news-3 {
     display: none;
+}
+
+
+.homeTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .person-info {
@@ -799,34 +811,44 @@ body {
     position: relative;
     overflow: hidden
 }
-.tp-caption{
-    font-size: 51px !important;
+
+.tp-caption {
+    font-size: 53.5px !important;
+    margin-top: 180px !important;
+    margin-left: 270px !important;
 }
+
 .tp-caption.dark-light-32 {
-    color: #4b4e53;
+    color: white;
     font-size: 32px !important;
     line-height: 32px;
     font-weight: 300
 }
 
 .tp-caption.dark-black-100 {
-    color: #4b4e53;
+    color: white;
     font-size: 100px;
     line-height: 100px;
     font-weight: 900
 }
 
 .tp-caption.dark-light-100 {
-    color: #4b4e53;
+    color: white;
     font-size: 100px;
     line-height: 100px;
-    font-weight: 300
+    font-weight: 400
+}
+
+.count-content {
+    display: flex;
+    justify-content: center;
 }
 
 .slider-1-cap-line {
     height: 3px;
     width: 100px;
-    background-color: #4b4e53
+    background-color: white;
+    margin-left: 272px !important;
 }
 
 .slider-bg-white-cap {
@@ -1194,12 +1216,20 @@ video {
 
 .fes2-main-text-cont {
     margin: 0 auto;
-    padding: 145px 50px 140px 50px;
+    padding: 30px;
     max-width: 500px
 }
 
 .fes2-text-cont {
-    margin-top: 30px
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+}
+
+
+.fes2-text-cont img {
+    width: 12px;
+    margin-right: 10px
 }
 
 .fes2-img {
@@ -1222,7 +1252,7 @@ video {
     font-weight: 300
 }
 
-.fes1-img{
+.fes1-img {
     background: url(../images/services//Customer\ Loyalty\ Consulting.jpg) 50% 50% no-repeat !important;
     background-size: cover;
     width: 100%;
@@ -1265,6 +1295,12 @@ video {
     background-position: center center
 }
 
+.homeImg {
+    width: 100%;
+    /* height: 750px; */
+    object-fit: cover;
+}
+
 .fes5-img {
     background: url(../images/services/Digitalization.jpg) 50% 50% no-repeat;
     background-size: cover;
@@ -1292,6 +1328,8 @@ video {
 }
 
 .fes4-box {
+    font-size: 19px;
+    line-height: 35px;
     margin-bottom: 50px
 }
 
@@ -1314,13 +1352,14 @@ video {
     color: #4b4e53;
     font-weight: 300;
     font-size: 18px;
-    padding-top:12px !important;
+    padding-top: 12px !important;
 }
 
 .section-title {
     margin: 0;
     padding: 22px 25px 24px 25px;
     font-weight: 300;
+    text-transform: uppercase;
     font-size: 30px;
     line-height: 36px;
     color: #4b4e53;
@@ -2528,6 +2567,19 @@ table.shopping-cart-table tr th {
     border-left: none
 }
 
+.link-button {
+    font-size: 14px;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    font-weight: 500;
+}
+
+.link-button:hover {
+    background-color: white;
+    color: rgb(46, 46, 46);
+}
+
 .work-proc-1-bg {
     will-change: background-position;
     margin: 0;
@@ -2606,18 +2658,19 @@ table.shopping-cart-table tr th {
     font-size: 14px;
     text-transform: uppercase;
 }
-.count-view{
+
+.count-view {
     display: flex;
-    width:150px;
+    width: 150px;
     justify-content: flex-end;
     align-items: center;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
-.count-view span{
-font-size:25px;
-margin-top:15px;
-margin-left: 5px;
+.count-view span {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 
 
@@ -2709,15 +2762,17 @@ margin-left: 5px;
 .post-prev-img img {
     width: 100%
 }
-.post-prev-title{
+
+.post-prev-title {
     display: flex;
-    justify-content:space-between
-    
+    justify-content: space-between
 }
+
 .post-prev-title i {
     font-size: 20px;
     margin-right: 15px;
 }
+
 .post-prev-title h3 {
     margin: 0;
     font-size: 16px;
@@ -2730,7 +2785,8 @@ margin-left: 5px;
 }
 
 .blog-main-posts .post-prev-info {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .blog-main-posts .post-prev-title h3 {
@@ -3018,9 +3074,11 @@ margin-left: 5px;
     margin: 0;
     font-size: 12px
 }
+
 .cis-text span {
     text-transform: uppercase !important;
 }
+
 #google-map,
 .google-map iframe {
     height: 625px;
@@ -3852,7 +3910,8 @@ select.input-border {
 }
 
 #main-menu .navbar .nav>li>a .main-menu-title {
-    line-height: 20px
+    line-height: 20px;
+    text-transform: uppercase;
 }
 
 #main-menu .navbar .nav>li>a {
@@ -4518,7 +4577,7 @@ header.affix .logo-2 {
 
 .logo-img {
     width: 120px;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 .logo-img.logo-color-change {
@@ -9027,8 +9086,7 @@ h1.pt-col-main {
 }
 
 .cd-timeline-start-caption,
-.cd-timeline-start-date {
-}
+.cd-timeline-start-date {}
 
 .cd-timeline-start-caption {
     color: #4b4e53;
@@ -12933,8 +12991,7 @@ ul#flickr-sfeeds li a img {
     width: 100%
 }
 
-.font-lato {
-}
+.font-lato {}
 
 .p-200-cont {
     padding-top: 200px;
@@ -13058,29 +13115,24 @@ ul#flickr-sfeeds li a img {
 
 #main-menu.font-open-sans .megamenu .title,
 #main-menu.font-open-sans .navbar .nav li a,
-.font-open-sans {
-}
+.font-open-sans {}
 
 #main-menu .megamenu .title.font-poppins,
 #main-menu.font-poppins .megamenu .title,
 #main-menu.font-poppins .navbar .nav li a,
-.font-poppins {
-}
+.font-poppins {}
 
 #main-menu.font-montserrat .megamenu .title,
 #main-menu.font-montserrat .navbar .nav li a,
-.font-montserrat {
-}
+.font-montserrat {}
 
 #main-menu.font-raleway .megamenu .title,
 #main-menu.font-raleway .navbar .nav li a,
-.font-raleway {
-}
+.font-raleway {}
 
 #main-menu.font-josefin .megamenu .title,
 #main-menu.font-josefin .navbar .nav li a,
-.font-josefin {
-}
+.font-josefin {}
 
 @media (max-width:1024px) {
     #rs-offset {
@@ -13867,4 +13919,27 @@ screen and (max-width:736px) and (orientation:landscape) {
 
 .shop-ad-height {
     height: 200px
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(161, 161, 161);
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
 }
