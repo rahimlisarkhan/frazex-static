@@ -62,7 +62,6 @@ background-color:#fff; */
 }
 
 .person-info {
-    height: 200px;
     background: rgb(255, 255, 255);
     margin-bottom: 20px;
     display: flex;
@@ -813,16 +812,20 @@ body {
 }
 
 .tp-caption {
-    font-size: 53.5px !important;
+    font-size: 45.6px !important;
     margin-top: 180px !important;
     margin-left: 270px !important;
+    text-align: center !important;
+    /* background-color:rgb(211, 214, 7); */
+    width: 40%;
 }
 
 .tp-caption.dark-light-32 {
     color: white;
     font-size: 32px !important;
     line-height: 32px;
-    font-weight: 300
+    font-weight: 300;
+
 }
 
 .tp-caption.dark-black-100 {
@@ -839,9 +842,34 @@ body {
     font-weight: 400
 }
 
-.count-content {
-    display: flex;
-    justify-content: center;
+@media screen and (min-width:996px) {
+    .count-content {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .mob-btn {
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        right: 10%;
+    }
+
+    /* .dropdown-menu{
+        top:0;
+        right:0;
+    } */
+    .count-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .count-view {
+        margin-left: 60px !important;
+    }
 }
 
 .slider-1-cap-line {
@@ -980,12 +1008,18 @@ body {
 }
 
 @media only screen and (max-width :478px) {
+
+    .tp-caption {
+        /* font-size: 40.5px !important; */
+        margin-left: -25px !important;
+    }
+
     .slider-bg-white-cap {
         display: block;
         visibility: visible;
         height: 240px;
         width: 1500px;
-        background-color: rgba(255, 255, 255, .9)
+        background-color: transparent
     }
 
     .tp-left {
@@ -1204,6 +1238,8 @@ video {
     margin-top: 10px
 }
 
+@media screen and (max-width:776px) {}
+
 @media only screen and (min-width:992px) {
     .left-50 {
         left: 50%
@@ -1297,8 +1333,17 @@ video {
 
 .homeImg {
     width: 100%;
-    /* height: 750px; */
+    height: auto;
     object-fit: cover;
+}
+
+
+@media screen and (max-width: 600px) {
+    .homeImg {
+        height: 768px;
+        object-fit: cover;
+
+    }
 }
 
 .fes5-img {
@@ -1337,6 +1382,10 @@ video {
     position: relative;
     padding-left: 70px;
     padding-bottom: 15px
+}
+
+.fes4-title-cont span {
+    text-transform: uppercase;
 }
 
 .fes4-box-icon {
@@ -2748,8 +2797,9 @@ table.shopping-cart-table tr th {
 }
 
 .intro-demo .post-prev-img {
-    border: 7px solid #e8e8e8
+    border: 7px solid #e8e8e8;
 }
+
 
 .grey-light-bg .intro-demo .post-prev-img {
     border: 7px solid #d3d3d3
@@ -2760,8 +2810,15 @@ table.shopping-cart-table tr th {
 }
 
 .post-prev-img img {
+    filter: grayscale(100%);
+    transition: all .2s;
     width: 100%
 }
+
+.post-prev-img img:hover {
+    filter: none;
+}
+
 
 .post-prev-title {
     display: flex;
@@ -4575,9 +4632,17 @@ header.affix .logo-2 {
     transition: all .4s ease 0s
 }
 
+
+
 .logo-img {
-    width: 120px;
+    width: 150px;
     object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .logo-img {
+        background-color: white;
+    }
 }
 
 .logo-img.logo-color-change {
@@ -9610,6 +9675,13 @@ h2.portfolio-timeline-title {
     }
 }
 
+@media (max-width:768px) {
+    .navbar-nav {
+        height: 400px;
+    }
+
+}
+
 @media (min-width:768px) and (max-width:1024px) {
     #main-menu .navbar-collapse.collapse {
         display: none !important
@@ -13913,7 +13985,8 @@ screen and (max-width:736px) and (orientation:landscape) {
 
 @media only screen and (max-width:768px) {
     .equal-height {
-        height: 320px
+        height: 320px;
+        margin-top: 105px;
     }
 }
 
