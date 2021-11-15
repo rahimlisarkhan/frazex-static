@@ -2812,7 +2812,9 @@ table.shopping-cart-table tr th {
 .post-prev-img img {
     filter: grayscale(100%);
     transition: all .2s;
-    width: 100%
+    width: 100%;
+    height:280px;
+    object-fit: cover;
 }
 
 .post-prev-img img:hover {
