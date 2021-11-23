@@ -814,27 +814,36 @@ body {
     overflow: hidden
 }
 
-.tp-caption {
+.d-box {
+    width: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+.content-mobile {
+    position: absolute;
+    right: 1%;
+    bottom: 15%;
     font-size: 45.6px !important;
-    margin-top: 12% !important;
-    margin-left: 15% !important;
-    text-align: center !important;
-    /* background-color:rgb(211, 214, 7); */
+    font-weight: bold;
+    line-height: 60px;
+    color: #eaeaea;
     width: 40%;
-    height: 70px !important;
+    height: 200px
 }
 
 @media (max-width:600px) {
-    .tp-caption {
-        margin-top: 70% !important;
-        font-size: 30px !important;
-    }
+    .content-mobile {
+        width: 95%;
+        bottom: 3%;
+        text-align: center;
+        font-size: 35px !important;
 
-    .tp-caption:last-child {
-        margin-top: 60% !important;
     }
 
 }
+
+
 
 .d-flex-box {
     display: flex;
