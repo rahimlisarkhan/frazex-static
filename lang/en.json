@@ -1,17 +1,17 @@
 {
 	"token": {
 		"navHome": "home",
-		"navAbout": "about Us",
+		"navAbout": "about us",
 		"navServices": "services",
-		"navBenefit": "our benefit",
+		"navBenefit": "our benefits",
 		"navTeam": "our team",
-		"navContact": "contact",
+		"navContact": "contacts",
 		"sliderTitle1": "Experts in",
 		"sliderTitle2": "Loyalty & Digital",
 		"aboutUs": "About US",
-		"aboutDesc": "Head & Partners started its activity in 2008. We offer a full range of loyaty consulting and management services. This includes customer loyalty, which helps create emotional attachment and communication between the business and customers, as well as incentive programs designed to improve employee performance. Our team has 15 years of customer loyalty expertise. In addition, one of the main area is business digitalization, which includes transforming business processes to improve their optimization and increase efficiency.",
+		"aboutDesc": "Head & Partners started its activity in 2008. We offer a full range of loyalty consulting and management services. This includes customer loyalty, which helps create emotional attachment and communication between the business and customers, as well as incentive programs designed to improve employee performance. Our team has 15 years of customer loyalty expertise. In addition, one of the main area is digital transformation, which includes transforming business processes to improve their optimization and increase efficiency.",
 		"addressTitle": "ADDRESS",
-		"address": "Baku, Babek Plaza, Block C, 3rd floor.. ",
+		"address": "Baku, Babek Plaza, Block C, 3rd floor",
 		"emailTitle": "E-MAIL",
 		"contactTitle": "Call us",
 		"our": "OUR BENEFITS",
@@ -38,11 +38,10 @@
 		"countTitle2": "Number of Clients",
 		"countTitle3": "Number of Projects",
 		"blockTitleFirst": "Loyalty Consulting",
-		"blockTitleFirst1": "Situational Analysis",
-		"blockTitleFirst2": "Loyalty Program Concept Development",
+		"blockTitleFirst1": "Business Case Development",
+		"blockTitleFirst2": "Designing of ECO System",
 		"blockTitleFirst3": "Economic Assessment",
-		"blockTitleFirst4": "Designing of ECO System",
-		"blockTitleFirst5": "Preparation for Implementation",
+		"blockTitleFirst4": "Preparation for Implementation",
 		"blockTitleSecond": "Loyalty Operations",
 		"blockTitleSecond1": "Development",
 		"blockTitleSecond2": "Implementation",
@@ -56,6 +55,6 @@
 		"person1About": "More than 10 years in business. Innovator. Author of a number of unique projects in Azerbaijan. Idea inspirer and director of the largest concierge company in Azerbaijan. Managing partner of the largest coupon service. Founder of the multi-profile company Frazex LLC. Author of the unique project InLoya.com. Ernst & Young Entrepreneur in 2021",
 		"person2Name": "Sabir Zeynalov",
 		"person2Job": "Managing Partner",
-		"person2About": "PhD in Business Administration. Many years of experience in e-commerce and consulting businesses of various fields and sizes. Practical experience of presentation at local and international venues. A large number of corporate trainings in business and marketing .."
+		"person2About": "Doctor of Business Administration canditate. Many years of experience in e-commerce and consulting businesses of various fields and sizes. Practical experience in presentation at local and international venues. A large number of corporate trainings in business and marketing"
 	}
 }

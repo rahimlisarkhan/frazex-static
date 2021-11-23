@@ -799,8 +799,11 @@ body {
     display: block;
     position: relative;
     overflow: hidden;
-    width: 100%;
     position: relative;
+    /* background-color: red !important; */
+    background-image: url('../images/Home\ Page.jpeg');
+    background-size: cover;
+    background-position-x: 25%;
     padding: 0
 }
 
@@ -813,11 +816,41 @@ body {
 
 .tp-caption {
     font-size: 45.6px !important;
-    margin-top: 180px !important;
-    margin-left: 270px !important;
+    margin-top: 12% !important;
+    margin-left: 15% !important;
     text-align: center !important;
     /* background-color:rgb(211, 214, 7); */
     width: 40%;
+    height: 70px !important;
+}
+
+@media (max-width:600px) {
+    .tp-caption {
+        margin-top: 70% !important;
+        font-size: 30px !important;
+    }
+
+    .tp-caption:last-child {
+        margin-top: 60% !important;
+    }
+
+}
+
+.d-flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    width: 90%;
+    height: 70px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
 }
 
 .tp-caption.dark-light-32 {
@@ -1626,7 +1659,7 @@ video {
     }
 
     .fes2-main-text-cont {
-        padding: 70px 30px 70px 30px
+        padding: 0 30px
     }
 }
 
@@ -2713,7 +2746,7 @@ table.shopping-cart-table tr th {
     width: 150px;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 70px;
 }
 
 .count-view span {
@@ -2813,8 +2846,14 @@ table.shopping-cart-table tr th {
     filter: grayscale(100%);
     transition: all .2s;
     width: 100%;
-    height:280px;
+    height: 280px;
     object-fit: cover;
+}
+
+@media (max-width:600px) {
+    .post-prev-img img {
+        height: 180px;
+    }
 }
 
 .post-prev-img img:hover {
@@ -2837,6 +2876,11 @@ table.shopping-cart-table tr th {
     font-size: 16px;
     line-height: 26px;
     font-weight: 600
+}
+
+.map-content {
+    width: 100%;
+    height: 450px;
 }
 
 .blog-main-posts .post-prev-img {
@@ -9910,8 +9954,9 @@ h2.portfolio-timeline-title {
         display: block;
         float: left;
         padding: 25px 17px 22px 5px;
-        font-size: 29px;
-        color: #4b4e53;
+        font-size: 40px;
+        /* color: #4b4e53; */
+        color: #b6b6b6;
         -webkit-transition: padding .4s ease 0s;
         -o-transition: padding .4s ease 0s;
         transition: padding .4s ease 0s;
@@ -13988,7 +14033,7 @@ screen and (max-width:736px) and (orientation:landscape) {
 @media only screen and (max-width:768px) {
     .equal-height {
         height: 320px;
-        margin-top: 105px;
+        margin-top: 24px;
     }
 }
 
